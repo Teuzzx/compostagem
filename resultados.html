@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compostagem de Luxo Orgânico</title>
+    <link rel="stylesheet" href="resultados.css">
+    <script src="resultados.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Compostagem de Luxo Orgânico</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#graficos">Gráficos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>Nosso objetivo é oferecer um processo de compostagem totalmente sustentável, que combina o cuidado com o meio ambiente com a sofisticação do luxo e o bem-estar orgânico. A compostagem de luxo vai além do simples ato de reciclar resíduos, transformando-o em uma experiência exclusiva que promove um estilo de vida consciente e refinado. Acreditamos que o luxo pode, e deve, ser aliado à responsabilidade ecológica, criando soluções inovadoras que respeitem o planeta enquanto proporcionam conforto e elegância aos nossos clientes.
+        <br>
+            Aqui, você pode acompanhar detalhadamente o progresso de cada etapa da compostagem através de gráficos interativos, que tornam a experiência visualmente atraente e informativa. Esses gráficos permitem que você monitore o impacto positivo das suas escolhas, além de facilitar o entendimento sobre como o processo de compostagem está transformando resíduos orgânicos em produtos de altíssima qualidade para o solo. Seja bem-vindo ao futuro da sustentabilidade de luxo!</p>
+    </section>
+
+    <section id="graficos">
+        <h2>Gráficos de Compostagem feitos na pesquisa de campo na<br> escola SESI Wilma Catão Araújo</h2>
+        <div class="grafico">
+            <canvas id="graficoProgresso"></canvas>
+
+            <div class="imagens-container">
+                <figure>
+                    <img src="./img/beneficio compostagem.jpeg" alt="Compostagem 1" class="imagem-interativa">
+                    <figcaption>Gráfico mostrando a decomposição inicial da compostagem.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./img/beneficio compostagem.jpeg" alt="Compostagem 2" class="imagem-interativa">
+                    <figcaption>Progresso da transformação de resíduos em adubo.</figcaption>
+                </figure>
+            </div>
+
+        </div>
+        <button onclick="atualizarGrafico()">Atualizar Dados</button>
+    </section>
+
+
+
+    <footer>
+        <p>Empresa de Coleta de Lixo Orgânico - Todos os direitos reservados © 2024</p>
+    </footer>
+</body>
+</html>
